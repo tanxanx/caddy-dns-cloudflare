@@ -14,7 +14,7 @@ on:
 
 jobs:
   go-build-and-test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     name: "Run go tests"
     steps:
       - uses: actions/checkout@v4
